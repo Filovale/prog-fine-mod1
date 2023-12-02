@@ -1,0 +1,26 @@
+body {
+    background-color: lightblue;
+}
+
+#main {
+    text-align: center;
+    margin-top: 100px;
+}
+
+#divJob {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+#resultList {
+    margin-top: 20px;
+    margin-left: 360px ;
+}
+
+li {
+    cursor: pointer;
+    padding-top: 5px;
+}

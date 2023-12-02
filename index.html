@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My jobs place</title>
+    <link rel="stylesheet" href="style.css"/> 
+</head>
+<body>
+    <div id="main">
+        <h1>JobFinder: you're new bestfriend</h1>
+        <h3>Please, insert here whatever you're searching for:</h3>
+        <div id="divLocation">
+            <label for="jobLocation">Job Location:</label>
+            <input type="text" name="location" id="jobLocation" placeholder="Insert a location"/>
+        </div>
+        <div id="divJob">   
+            <label for="jobTitle">Job Title</label>
+            <input type="text" name="jobTitle" id="jobTitle" placeholder="Insert a job title">
+        </div>
+        <button type="button" id="searching" onclick="jobFinder()">Let's go!</button>
+        <button type="button" id="reset">Try Again</button>     
+    </div>
+    <div id="lista">
+        <ul id="resultList"></ul>
+    </div>
+    
+    <script src="scaricabile.js"></script>
+</body>
+</html>
